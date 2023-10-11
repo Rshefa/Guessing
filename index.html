@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hot 🔥 and Cold 🥶</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="title">Hot and Cold</h1>
+    <h1 id="tries"></h1>
+    <h1 id="winning"></h1>
+    <h1 id="guess">Keep Trying</h1>
+    <h1 id="correctNumber" style="display:none;"></h1>
+
+
+    <button onclick="add(1);">+ 1</button>
+    <button onclick="add(5);">+ 5</button>
+    <button onclick="add(10);">+ 10</button>
+    <button onclick="add(25);">+ 25</button>
+    
+<br>
+    <button onclick="subtract(1);">- 1</button>
+    <button onclick="subtract(5);">- 5</button>
+    <button onclick="subtract(10);">- 10</button>
+    <button onclick="subtract(25);">- 25</button>
+    
+<br>
+    <button onclick="reset();">Reset to start</button>
+    <button onclick="check();">Commit</button>
+    
+
+    <div id="pastAttempt">Past Attempts: </div>
+
+    <script>
+        // Initialize the game when the DOM is ready
+        document.addEventListener("DOMContentLoaded", initialize);
+    </script>
+</body>
+
+</html>

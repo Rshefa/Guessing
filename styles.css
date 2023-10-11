@@ -1,0 +1,55 @@
+body {
+    background-image: url("background.jpeg");
+  }
+
+  .title{
+    text-align: center;
+    color:azure;
+    font-family:monospace;
+    background-color: rgb(249, 136, 136);
+    padding-top: 20px;
+    padding-bottom:20px;
+  }
+
+  button{
+    background-color: rgb(176, 209, 252);
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    margin-right: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+  button:hover{
+    background-color:rgb(136, 173, 255);
+  }
+
+  #pastAttempt{
+    font-size: medium;
+    color:rgb(206, 103, 118);
+    padding: 10px;
+    background-color:azure;
+    width:auto;
+    font-weight: bold;
+  }
+  #tries{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    padding: 5px;
+    border-color: rgb(255, 149, 149);
+    border-radius: 10px;
+    width:fit-content
+
+  }
+
+  #guess{
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    padding: 5px;
+    border-color: rgb(255, 149, 149);
+    border-radius: 10px;
+    width:fit-content
+  }
