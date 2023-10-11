@@ -1,4 +1,4 @@
-// hot_and_cold.js
+
 
 let guessNum, triesLeft, result;
 let randomNum, guess, tries, response;
